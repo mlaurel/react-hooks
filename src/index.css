@@ -1,0 +1,11 @@
+button,
+.button {
+  margin-bottom: 0 !important;
+  margin-right: 0.5rem;
+}
+
+.grid-users {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 2rem;
+}
